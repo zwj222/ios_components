@@ -1,0 +1,58 @@
+PODS:
+  - Module_A (0.0.1):
+    - Module_B_Category
+    - ZWJ_CTMediator
+    - ZWJ_MasonyFrame
+  - Module_A_Category (0.0.1):
+    - ZWJ_CTMediator
+  - Module_B (0.0.1):
+    - ZWJ_MasonyFrame
+  - Module_B_Category (0.0.1):
+    - ZWJ_CTMediator
+  - Module_C_Swift (0.0.1)
+  - Module_C_Swift_Extention (0.0.1):
+    - ZWJ_CTMediator
+  - ZWJ_CTMediator (0.0.1)
+  - ZWJ_MasonyFrame (0.0.1)
+
+DEPENDENCIES:
+  - Module_A (from `../Module_A`)
+  - Module_A_Category (from `../Module_A_Category`)
+  - Module_B (from `../Module_B`)
+  - Module_B_Category (from `../Module_B_Category`)
+  - Module_C_Swift (from `../Module_C_Swift`)
+  - Module_C_Swift_Extention (from `../Module_C_Swift_Extention`)
+  - ZWJ_CTMediator (from `../ZWJ_CTMediator`)
+  - ZWJ_MasonyFrame (from `../ZWJ_MasonyFrame`)
+
+EXTERNAL SOURCES:
+  Module_A:
+    :path: "../Module_A"
+  Module_A_Category:
+    :path: "../Module_A_Category"
+  Module_B:
+    :path: "../Module_B"
+  Module_B_Category:
+    :path: "../Module_B_Category"
+  Module_C_Swift:
+    :path: "../Module_C_Swift"
+  Module_C_Swift_Extention:
+    :path: "../Module_C_Swift_Extention"
+  ZWJ_CTMediator:
+    :path: "../ZWJ_CTMediator"
+  ZWJ_MasonyFrame:
+    :path: "../ZWJ_MasonyFrame"
+
+SPEC CHECKSUMS:
+  Module_A: 21e16708a91edfc2e7c8a6fbab4aca703ea3c9be
+  Module_A_Category: b5f22253fd2b67ca045f28364fd831a97bb6a424
+  Module_B: 891043a14a24fd4f53e9311c02a3c95fdf2903ec
+  Module_B_Category: 8f650d0b386dabb9c979e6e4d8dcf8f2ad797d55
+  Module_C_Swift: 439c0fa3816d923c1d063af982d14b6d12aab499
+  Module_C_Swift_Extention: a572fecf397c046187ff9b4b35b7af248c857fb8
+  ZWJ_CTMediator: afcc23d367184a0c1bd2614fad37b7999a0a31d7
+  ZWJ_MasonyFrame: 7ec43c14919ba3c816083efcd2008b6d523c7508
+
+PODFILE CHECKSUM: 147256e3d8f525b02b529cd33c7024fac8032b18
+
+COCOAPODS: 1.10.1

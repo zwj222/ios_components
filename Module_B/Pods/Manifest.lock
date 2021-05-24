@@ -1,0 +1,16 @@
+PODS:
+  - ZWJ_MasonyFrame (0.0.1)
+
+DEPENDENCIES:
+  - ZWJ_MasonyFrame (from `../ZWJ_MasonyFrame`)
+
+EXTERNAL SOURCES:
+  ZWJ_MasonyFrame:
+    :path: "../ZWJ_MasonyFrame"
+
+SPEC CHECKSUMS:
+  ZWJ_MasonyFrame: 7ec43c14919ba3c816083efcd2008b6d523c7508
+
+PODFILE CHECKSUM: 504482bd354434118cf19251a16f52d71b1822be
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,27 @@
+PODS:
+  - Module_B_Category (0.0.1):
+    - ZWJ_CTMediator
+  - ZWJ_CTMediator (0.0.1)
+  - ZWJ_MasonyFrame (0.0.1)
+
+DEPENDENCIES:
+  - Module_B_Category (from `../Module_B_Category`)
+  - ZWJ_CTMediator (from `../ZWJ_CTMediator`)
+  - ZWJ_MasonyFrame (from `../ZWJ_MasonyFrame`)
+
+EXTERNAL SOURCES:
+  Module_B_Category:
+    :path: "../Module_B_Category"
+  ZWJ_CTMediator:
+    :path: "../ZWJ_CTMediator"
+  ZWJ_MasonyFrame:
+    :path: "../ZWJ_MasonyFrame"
+
+SPEC CHECKSUMS:
+  Module_B_Category: 8f650d0b386dabb9c979e6e4d8dcf8f2ad797d55
+  ZWJ_CTMediator: afcc23d367184a0c1bd2614fad37b7999a0a31d7
+  ZWJ_MasonyFrame: 7ec43c14919ba3c816083efcd2008b6d523c7508
+
+PODFILE CHECKSUM: 75c5c1f41e849b45dda5eafdc841d17966f6d749
+
+COCOAPODS: 1.10.1

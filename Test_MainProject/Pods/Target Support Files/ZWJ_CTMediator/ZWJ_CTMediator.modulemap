@@ -1,0 +1,6 @@
+framework module ZWJ_CTMediator {
+  umbrella header "ZWJ_CTMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

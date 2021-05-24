@@ -1,0 +1,14 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Module_A" "${PODS_CONFIGURATION_BUILD_DIR}/Module_A_Category" "${PODS_CONFIGURATION_BUILD_DIR}/Module_B" "${PODS_CONFIGURATION_BUILD_DIR}/Module_B_Category" "${PODS_CONFIGURATION_BUILD_DIR}/Module_C_Swift" "${PODS_CONFIGURATION_BUILD_DIR}/Module_C_Swift_Extention" "${PODS_CONFIGURATION_BUILD_DIR}/ZWJ_CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/ZWJ_MasonyFrame"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Module_A/Module_A.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Module_A_Category/Module_A_Category.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Module_B/Module_B.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Module_B_Category/Module_B_Category.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Module_C_Swift/Module_C_Swift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Module_C_Swift_Extention/Module_C_Swift_Extention.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ZWJ_CTMediator/ZWJ_CTMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ZWJ_MasonyFrame/ZWJ_MasonyFrame.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "Module_A" -framework "Module_A_Category" -framework "Module_B" -framework "Module_B_Category" -framework "Module_C_Swift" -framework "Module_C_Swift_Extention" -framework "ZWJ_CTMediator" -framework "ZWJ_MasonyFrame"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

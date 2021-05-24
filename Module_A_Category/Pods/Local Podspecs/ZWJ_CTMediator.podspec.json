@@ -1,0 +1,22 @@
+{
+  "name": "ZWJ_CTMediator",
+  "version": "0.0.1",
+  "summary": "A short description of ZWJ_CTMediator.",
+  "description": "this is ZWJ_CTMediator",
+  "homepage": "https://gitee.com/zwj946/ZWJ_CTMediator",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "zwj222": "1741831606@qq.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "path": "./"
+  },
+  "source_files": "ZWJ_CTMediator/ZWJ_CTMediator/**/*.{h,m}",
+  "requires_arc": true
+}

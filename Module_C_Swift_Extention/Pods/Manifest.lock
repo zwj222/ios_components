@@ -1,0 +1,16 @@
+PODS:
+  - ZWJ_CTMediator (0.0.1)
+
+DEPENDENCIES:
+  - ZWJ_CTMediator (from `../ZWJ_CTMediator`)
+
+EXTERNAL SOURCES:
+  ZWJ_CTMediator:
+    :path: "../ZWJ_CTMediator"
+
+SPEC CHECKSUMS:
+  ZWJ_CTMediator: afcc23d367184a0c1bd2614fad37b7999a0a31d7
+
+PODFILE CHECKSUM: 24d35f05bb22b885367f677eb6f02c2e904ecf15
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module ZWJ_MasonyFrame {
+  umbrella header "ZWJ_MasonyFrame-umbrella.h"
+
+  export *
+  module * { export * }
+}

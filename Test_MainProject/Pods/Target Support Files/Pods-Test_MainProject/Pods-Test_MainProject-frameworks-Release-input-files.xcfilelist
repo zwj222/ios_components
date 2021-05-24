@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-Test_MainProject/Pods-Test_MainProject-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Module_A/Module_A.framework
+${BUILT_PRODUCTS_DIR}/Module_A_Category/Module_A_Category.framework
+${BUILT_PRODUCTS_DIR}/Module_B/Module_B.framework
+${BUILT_PRODUCTS_DIR}/Module_B_Category/Module_B_Category.framework
+${BUILT_PRODUCTS_DIR}/Module_C_Swift/Module_C_Swift.framework
+${BUILT_PRODUCTS_DIR}/Module_C_Swift_Extention/Module_C_Swift_Extention.framework
+${BUILT_PRODUCTS_DIR}/ZWJ_CTMediator/ZWJ_CTMediator.framework
+${BUILT_PRODUCTS_DIR}/ZWJ_MasonyFrame/ZWJ_MasonyFrame.framework

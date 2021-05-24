@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'Module_C_Swift_Extention' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod "ZWJ_CTMediator", :path => '../ZWJ_CTMediator'
+
+end

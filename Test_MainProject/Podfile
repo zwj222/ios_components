@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Test_MainProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Module_A', :path => '../Module_A'
+  pod 'Module_A_Category',  :path => '../Module_A_Category'
+
+  pod 'Module_B', :path => '../Module_B'
+  pod 'Module_B_Category',  :path => '../Module_B_Category'
+
+  pod 'Module_C_Swift', :path => '../Module_C_Swift'
+  pod 'Module_C_Swift_Extention',  :path => '../Module_C_Swift_Extention'
+  
+
+  pod 'ZWJ_MasonyFrame',  :path => '../ZWJ_MasonyFrame'
+  
+  pod 'ZWJ_CTMediator',  :path => '../ZWJ_CTMediator'
+  
+
+end

@@ -1,0 +1,24 @@
+{
+  "name": "Module_C_Swift",
+  "version": "0.0.1",
+  "summary": "A short description of Module_C_Swift.",
+  "swift_versions": "4.2",
+  "description": "this is Module_C_Swift",
+  "homepage": "http://EXAMPLE/Module_C_Swift",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "zwj222": "1741831606@qq.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "path": "./"
+  },
+  "source_files": "Module_C_Swift/Module_C_Swift/**/*.{h,m,swift}",
+  "requires_arc": true,
+  "swift_version": "4.2"
+}
